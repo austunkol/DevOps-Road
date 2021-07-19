@@ -1,4 +1,4 @@
-read -p "Write a bracket combination please: " bracket
+read -p "Write a bracket combination: " bracket
 if [[ "$bracket" == "()" ]]
 then
         echo "true"
